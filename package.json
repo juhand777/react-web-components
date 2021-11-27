@@ -1,10 +1,13 @@
 {
-  "name": "@juhand777/base",
+  "name": "@juhand777/react-web-components",
   "version": "1.0.0",
   "description": "Base de jd package",
   "author": "Johan",
   "license": "MIT",
-  "repository": "Johan/@juhand777/base",
+  "repository": "https://github.com/juhand777/react-web-components.git",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@juhand777"
+  },
   "main": "dist/index.js",
   "module": "dist/index.es.js",
   "jsnext:main": "dist/index.es.js",
