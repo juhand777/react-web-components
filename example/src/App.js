@@ -1,17 +1,28 @@
-import React from 'react'
-import { useMyHook, TwilioLogo } from '@juhand777/base'
+import logo from './logo.svg'
+import './App.css'
 
-const App = () => {
-  const example = useMyHook()
+import { Button } from '@juhand777/react-web-components'
+
+function App() {
   return (
-    <div>
-      <TwilioLogo
-        height='240px'
-        width='520px'
-        customStyles={{ border: '1px solid black' }}
-      />
-      {example}
+    <div className='App'>
+      <header className='App-header'>
+        <Button className='hello' />
+        <img src={logo} className='App-logo' alt='logo' />
+        <p>
+          Edit <code>src/App.js</code> and save to reload.
+        </p>
+        <a
+          className='App-link'
+          href='https://reactjs.org'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   )
 }
+
 export default App
