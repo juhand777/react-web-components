@@ -1,13 +1,13 @@
-# @juhand777/base
+# @juhand777/react-web-components
 
 > Base de jd package
 
-[![NPM](https://img.shields.io/npm/v/@juhand777/base.svg)](https://www.npmjs.com/package/@juhand777/base) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@juhand777/react-web-components.svg)](https://www.npmjs.com/package/@juhand777/react-web-components) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @juhand777/base
+npm install --save @juhand777/react-web-components
 ```
 
 ## Usage
@@ -15,7 +15,7 @@ npm install --save @juhand777/base
 ```jsx
 import React, { Component } from 'react'
 
-import { useMyHook } from '@juhand777/base'
+import { useMyHook } from '@juhand777/react-web-components'
 
 const Example = () => {
   const example = useMyHook()
